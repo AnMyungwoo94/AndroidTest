@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_message1"
+        android:textSize="20sp"/>
+   <EditText
+       android:id="@+id/edtEmail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="rlasesoui@nate.com"
+       android:inputType="textEmailSubject"
+       android:textSize="20sp"
+       android:layout_marginTop="5dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true" >
+   <EditText
+       android:id="@+id/edtPassword"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/app_message3"
+       android:textSize="20sp"
+       android:inputType="textPassword"
+       android:layout_marginTop="5dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/tvLongClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_message2"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_btnok"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

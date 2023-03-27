@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main">Look up the people in your cell phone contacts on Messenger</string>
+    <string name="main_sub">If you continue to upload your contacts, Facebook and Messenger will recommend you a linked contact
+        and will be different from you It helps to better serve people by displaying more relevant advertisements.</string>
+    <string name="main_button">setting</string>
+    <string name="main_sub_button">Do it later</string>
+</resources>

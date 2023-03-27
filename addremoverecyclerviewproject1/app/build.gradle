@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.an'
+    namespace 'com.example.addremoverecyclerviewproject'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.an"
+        applicationId "com.example.addremoverecyclerviewproject"
         minSdk 24
         targetSdk 33
         versionCode 1

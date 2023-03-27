@@ -7,9 +7,9 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="명우"
+        android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Day0327"
+        android:theme="@style/Theme.Addremoverecyclerviewproject"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"

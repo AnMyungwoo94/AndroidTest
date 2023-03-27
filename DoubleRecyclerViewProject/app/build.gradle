@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.an'
+    namespace 'com.example.doublerecyclerviewproject'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.an"
+        applicationId "com.example.doublerecyclerviewproject"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -30,6 +30,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
     viewBinding {
         enabled = true
     }
